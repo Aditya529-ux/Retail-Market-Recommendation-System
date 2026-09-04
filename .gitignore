@@ -1,0 +1,14 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Large/generated datasets
+data/online_retail_cleaned.csv
+data/transactions_clustered.csv
+data/baskets/
+data/*.pkl
+"@ | Out-File -Encoding utf8 .gitignore
